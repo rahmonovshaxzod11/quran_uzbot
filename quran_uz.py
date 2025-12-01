@@ -91,7 +91,7 @@ dp = Dispatcher()
 @dp.message(Command("start", "help"))
 async def send_welcome(message: Message):
     welcome_text = (
-        "Salom. Qur'on botiga hush kelibsiz!\n\n"
+        "Assalamu alaykum. Qur'on oyatlarini izlashga yordamlashadigan botga hush kelibsiz!\nBunda Shayx Muhammad Sodiq Muhammad Yusuf tarjimalariga asoslangan!\n\n"
         "<b>📖 Qidirish usullari:</b>\n"
         "1. Raqamlar bilan: <code>2 1</code> (2-sura 1-oyat)\n"
         "2. Nom bilan: <code>Yusuf 3</code> (Yusuf surasi 3-oyat)\n"
@@ -204,3 +204,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
